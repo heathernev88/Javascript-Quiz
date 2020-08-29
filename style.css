@@ -21,6 +21,10 @@ body {
     padding: 10px;
 }
 
+.correct {
+    background-color: green;
+}
+
 .btn-grid {
     display: grid;
     padding: 10px;
@@ -65,7 +69,7 @@ body {
     background-color: rgb(250, 6, 6);
 }
 
-#timer {
+#countdownTimer {
     position: absolute;
     top: 5px;
     right: 10px;
@@ -74,6 +78,27 @@ body {
     padding: 10px;
 }
 
+#displayScore {
+    font-size: 25px;
+}
+
+#finishedMessage {
+    font-size: 50px;
+    color: green; 
+}
+
+#inputBox {
+    padding: 50px 50px 15px 0;
+    font-size: 15px;
+}
+
+.initials {
+    margin-top: 25px;
+}
 .hide {
     display: none;
+}
+
+.wrong {
+    background-color: red;
 }
